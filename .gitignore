@@ -1,1 +1,27 @@
-/node_modules/
+# Dependencies
+node_modules/
+
+# Build outputs
+dist
+build
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE - JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+pnpm-debug.log*
+npm-debug.log*
+
+# Testing
+coverage
+.nyc_output
